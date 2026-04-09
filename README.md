@@ -1,52 +1,32 @@
-# EmailSpoof POC
- 
-<br>
+# EmailSpoof PoC
 
+This is a simple **Proof of Concept (PoC)** for email spoofing.
 
-This is a simple probe of concept of email spoofing
+> **Disclaimer**: This project is for educational and ethical testing purposes only. Unauthorized use is illegal.
 
-<br>
-<br>
-<br>
+## Usage
 
-
-<h2>Usage</h2>
-
+### 1. Initialize Postfix
+The Postfix service must be running to handle mail transfer.
 
 ![image](https://github.com/user-attachments/assets/73233020-509d-45a6-9642-f0127971e614)
-<br>
-Firstly, we have to launch postfix in order to send the email.
-<br>
-<br>
-<br>
 
-
+### 2. Help Menu
+Use the `-h` flag to see the available options and required parameters.
 
 ![image](https://github.com/user-attachments/assets/96595eda-9335-4217-bf7d-07d037b62eb8)
-<br>
-We can use "-h" to see the options
 
-<br>
-<br>
-<br>
-
+### 3. Target Setup
+For this PoC, a temporary email service is used to verify the receipt of the spoofed message.
 
 ![image](https://github.com/user-attachments/assets/f89083d5-5d2a-4fc1-a903-b4c15159bd87)
-<br>
-Where gona use a temp mail for the poc.
 
-<br>
-<br>
-<br>
+### 4. Sending the Email
+Execute the script with the destination and source parameters.
 
 ![image](https://github.com/user-attachments/assets/3d5de164-74f5-4aa8-bdd4-cb3467f0c061)
-<br>
-We can now send the mail.
 
-<br>
-<br>
-<br>
+### 5. Verification
+The email is delivered to the target address displaying the spoofed metadata.
 
 ![image](https://github.com/user-attachments/assets/3ab90ec2-b94d-4c1e-b86b-b203c78293d1)
-<br>
-The mail will be sent with the designed data.
